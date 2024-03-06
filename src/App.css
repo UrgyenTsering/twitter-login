@@ -103,8 +103,16 @@ form{
   border-radius: 12px;
   font-size:15px;
   padding:10px 30px;
+  cursor: pointer;
 }
 
+.next{
+  transition-duration: 0.4s;
+}
+
+.next:hover{
+  background-color: rgb(216, 217, 223);
+}
 .link-div{
   margin: 10px;
   font-size: 12px;
